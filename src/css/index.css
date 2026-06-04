@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #e4572e;
+  background-color: #00d0f4;
   color: white;
   padding: 25px 20px;
 }
@@ -42,7 +42,6 @@ section p {
   max-width: 650px;
   margin: 0 auto 30px;
   color: #555;
-  line-height: 1.6;
   font-size: 18px;
 }
 

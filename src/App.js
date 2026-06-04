@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Header />
-      <HeroBanner title="Welcome" text="This is my site" />
+      <HeroBanner title="Welcome" text="simple React app using props to show all of the content" />
       <Gallery images={images} />
       <Footer />
     </div>
