@@ -41,12 +41,12 @@ This allowed me to create reusable components that display different content wit
 
 ### Rendering Lists
 
-The Gallery component uses the JavaScript `map()` method to iterate through an array of image URLs and render images dynamically using the `<img>` element.
+The Gallery component uses the JavaScript `map()` method to go through an array of image URLs and render images dynamically using the `<img>` element.
 
 ## Technologies Used
 
 * React
-* JavaScript (ES6)
+* JavaScript 
 * HTML
 * CSS
 * Git
