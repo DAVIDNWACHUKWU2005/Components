@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+## React Components Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project was built as part of my introduction to React. The objective was to learn how to create reusable components and pass data using props
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* Header component with a title and about menu
+* Banner component with customizable title and text
+*  Button component with primary and secondary styles
+* Gallery component displaying four images
+* Footer component
+* Responsive layout using CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## React Concepts Practiced
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Components
 
-### `npm test`
+The application is divided into multiple reusable components:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Header
+* Banner
+* Button
+* Gallery
+* Footer
 
-### `npm run build`
+This helped me understand how React applications are structured and how components work together to build a user interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Props
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+One of the main goals of this project was learning how to define component content using props.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The root component (`App.js`) passes:
 
-### `npm run eject`
+* A title and description to the Banner component
+* An array of image URLs to the Gallery component
+* Text and style information to the Button component
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This allowed me to create reusable components that display different content without changing the component code itself.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Rendering Lists
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Gallery component uses the JavaScript `map()` method to iterate through an array of image URLs and render images dynamically using the `<img>` element.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+* React
+* JavaScript (ES6)
+* HTML
+* CSS
+* Git
+* GitHub
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## What I Learned
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Through this project I learned how to:
 
-### Code Splitting
+* Create and organize React components
+* Pass data between components using props
+* Render content dynamically with arrays and `map()`
+* Apply CSS styling to React components
+* Structure a React application using reusable UI elements
+* Use Git and GitHub for version control
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Improvements
 
-### Analyzing the Bundle Size
+* Add responsive design for mobile devices
+* Add more pages and navigation options
+* Improve styling and animations
+* Add interactive gallery features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+David Nwachukwu
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project represents one of my first React applications and demonstrates my understanding of React components, props, and basic front-end development concepts.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
