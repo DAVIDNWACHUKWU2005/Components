@@ -1,6 +1,6 @@
 function Gallery({ images }) {
   return (
-    <div>
+    <div className="gallery">
       {images.map((img, index) => (
         <img key={index} src={img} alt="gallery" />
       ))}
